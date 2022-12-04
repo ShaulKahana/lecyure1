@@ -8,5 +8,6 @@
     "run-porgram": "node index.js"
   },
   "author": "shaul kahana",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
