@@ -8,17 +8,17 @@ const me = {
 }
 
 writeFile("./me.json",JSON.stringify(me), (err) => {
-    if(arr) {
+    if(err) {
         console.log(err);
         exit(1);
     }
     readFile("./me.json",(err, data) => {
-        if(arr) {
+        if(err) {
             console.error(err);
             exit(2);
         }
-        console.log("$s",data)
-            exit(0);
+        console.log("%s",data)
+        exit(0);
     })
     
-})
+});
